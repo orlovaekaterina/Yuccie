@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Наша команда</title>
+    <style>
+        body{
+            position: relative;
+        }
+        .team{
+            border-radius:180px;
+            border: 3px solid lightsalmon;
+            background-color: black;
+            width: 300px;
+            height: 150px;
+            top:50%;
+            left:50%;
+            margin-right: -150px;
+            color: white;
+            text-align: center;
+            padding-top:150px;
+        }
+        .teamcover{
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            z-index: 2;
+            transition: 1s;
+        }
+        .teamMember1{
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            translate: all 500;
+        }
+        .teamMember2{
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            translate: all 500;
+        }
+        .teamMember3{
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            translate: all 500;
+        }
+        .teamMember4{
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            translate: all 500;
+        }
+        .teamMember5 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            translate: all 500;
+        }
+        .teamMember6{
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -150px;
+            margin-top: -150px;
+            translate: all 500;
+        }
+        .teamcover:hover{
+            display:none;
+            transform: translate(100%, 100%)
+        }
+        .teamMember1:hover{
+            transform: translate(100px);
+        }
+
+
+    </style>
+</head>
+<body>
+<p>Наша команда</p>
+<div class="team teamcover">Наведи, чтобы увидеть</div>
+<div class="team teamMember1">Маша</div>
+<div class="team teamMember2">Вася</div>
+<div class="team teamMember3">Петя</div>
+<div class="team teamMember4">Костя</div>
+<div class="team teamMember5">Женя</div>
+<div class="team teamMember6">Лена</div>
+</body>
+</html>

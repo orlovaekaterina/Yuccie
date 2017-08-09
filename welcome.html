@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <style>
+
+        html,body{
+            width: 100%;height: 100%;
+        }
+        body {
+            background-color: #400040;
+            overflow: hidden;
+            margin: 0;
+        }
+        .circles{
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .circle{
+            width: 300px;
+            height: 300px;
+            background-color: orange;
+            border-radius: 100%;
+            position: absolute;
+            top:50%;
+            left:50%;
+            margin-left: -150px;
+            margin-top: -150px;
+
+        }
+        .circle:hover{
+            background-color: red;
+            transform: scale(2);
+            transition: 1s;
+        }
+        .button {
+            margin-top: 50%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="circles">
+    <div class="team teamMember1">Маша</div>
+    <div class="team teamMember2">Вася</div>
+    <div class="team teamMember3">Петя</div>
+    <div class="team teamMember4">Костя</div>
+    <div class="team teamMember5">Женя</div>
+    <div class="team teamMember6">Лена</div>
+</div>
+</body>
+</html>
